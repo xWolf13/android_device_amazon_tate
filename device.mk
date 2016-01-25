@@ -47,8 +47,9 @@ ADDITIONAL_BUILD_PROPERTIES += \
 
 # Set dirty regions off
 ADDITIONAL_BUILD_PROPERTIES += \
-    hwui.render_dirty_regions=false
-
+    hwui.render_dirty_regions=true \
+    ro.hwui.disable_scissor_opt=true
+    
 # RIL turn off
 ADDITIONAL_BUILD_PROPERTIES += \
     keyguard.no_require_sim=1 \
