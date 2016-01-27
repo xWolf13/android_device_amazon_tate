@@ -11,4 +11,5 @@ service atmel_touch /system/bin/atmel_touch.sh
     user root
     group root
     oneshot
+    seclabel u:r:atmeltouch:s0
 
