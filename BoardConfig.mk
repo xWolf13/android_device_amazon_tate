@@ -23,8 +23,8 @@ TARGET_BOARD_OMAP_CPU := 4460
 
 # Kernel Build
 TARGET_KERNEL_SOURCE := kernel/amazon/bowser-common
-TARGET_KERNEL_CONFIG := android_omap4_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := android_tate_defconfig
+TARGET_KERNEL_CONFIG := frosty_omap4_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := frosty_tate_defconfig
 BOARD_KERNEL_CMDLINE := mem=1G androidboot.hardware=bowser console=ttyO2,115200n8 androidboot.console=ttyO2 androidboot.selinux=permissive
 
 # External SGX Module
