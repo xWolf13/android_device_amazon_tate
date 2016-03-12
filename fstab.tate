@@ -5,6 +5,7 @@
 /dev/block/platform/omap/omap_hsmmc.1/by-name/system      /system     ext4   ro,nodev,noatime,errors=continue                         wait
 /dev/block/platform/omap/omap_hsmmc.1/by-name/userdata    /data       f2fs   discard,nosuid,nodev,noatime,nodiratime,inline_xattr     wait,nonremovable,check,encryptable=footer,length=-16384
 /dev/block/platform/omap/omap_hsmmc.1/by-name/userdata    /data       ext4   discard,nosuid,nodev,noatime                             wait,check,encryptable=footer,length=-16384
+/dev/block/platform/omap/omap_hsmmc.1/by-name/cache       /cache      f2fs   rw,nosuid,nodev,noatime,nodiratime,inline_xattr          wait,nonremovable,check,formattable
 /dev/block/platform/omap/omap_hsmmc.1/by-name/cache       /cache      ext4   discard,nosuid,nodev,noatime                             wait,check
 /dev/block/platform/omap/omap_hsmmc.1/by-name/efs         /efs        ext4   discard,nodev,noatime                                    wait,check
 /dev/block/platform/omap/omap_hsmmc.1/by-name/boot        /boot       emmc   defaults                                                 defaults
